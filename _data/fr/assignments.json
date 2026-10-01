@@ -1,0 +1,54 @@
+[
+  {
+    "id": 2,
+    "jobTitle": "Lead technique web / Développeur (via SQLI)",
+    "jobDescription": "Développement de fonctionnalités et correction d’anomalies pour le système de gestion Cartier Plaza, d’abord comme ingénieur logiciel, puis comme lead technique.",
+    "jobLocation": "Lyon, France",
+    "company": "Cartier",
+    "fromTo": "Mai 2022 — Déc. 2022",
+    "mainTasks": [
+      "Développer de nouvelles fonctionnalités et corriger les anomalies du système de gestion Cartier Plaza.",
+      "Intervenir comme ingénieur logiciel puis lead technique via SQLI."
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "JHipster",
+      "Maven",
+      "GitLab CI",
+      "MySQL",
+      "Docker",
+      "AWS SQS",
+      "AWS Lambda",
+      "Angular",
+      "npm",
+      "Mockito/JUnit",
+      "MockMvc",
+      "Testcontainers"
+    ],
+    "source": "Portfolio précédent"
+  },
+  {
+    "id": 3,
+    "jobTitle": "Ingénieur logiciel / DevOps (via SQLI)",
+    "jobDescription": "Migration d’applications Java, Spring Boot et Angular pour une plateforme de gestion des plannings, transfert de l’infrastructure vers AWS Elastic Beanstalk, remplacement de Redis par Hazelcast et création de pipelines de déploiement GitLab CI.",
+    "jobLocation": "Lyon, France",
+    "company": "TotalEnergies",
+    "fromTo": "Juin 2022 — Août 2022",
+    "mainTasks": [
+      "Migrer les applications Java, Spring Boot et Angular vers les dernières versions disponibles à l’époque, en veillant à la compatibilité et à la fluidité de la transition.",
+      "Migrer l’infrastructure vers AWS Elastic Beanstalk et remplacer le cache Redis par Hazelcast.",
+      "Créer des pipelines GitLab CI pour tester, compiler et déployer l’application sur AWS."
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Hazelcast",
+      "Angular",
+      "AWS Elastic Beanstalk",
+      "Terraform",
+      "GitLab CI"
+    ],
+    "source": "Portfolio précédent"
+  }
+]

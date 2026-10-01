@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{% include locale.html %}
+<header class="intro">
+  <p class="eyebrow">{{ t.role }} · {{ site.location }}</p>
+  <h1>{{ site.title }}</h1>
+  {{ content }}
+  <p class="intro-links"><a href="{{ t.routes.resume | relative_url }}">{{ t.view_resume }} <span aria-hidden="true">↗</span></a><a href="mailto:{{ site.email }}">{{ t.get_in_touch }} <span aria-hidden="true">↗</span></a></p>
+</header>
+
+<section id="contributions" aria-labelledby="contributions-heading">
+  <h2 class="section-label" id="contributions-heading">{{ t.contributions }}</h2>
+  {% include contributions.html %}
+</section>
+
+{% include approach.html %}
+
+<section aria-labelledby="highlights-heading">
+  <h2 class="section-label" id="highlights-heading">{{ t.highlights }}</h2>
+  <ul class="work-highlights">
+    {% for highlight in portfolio.highlights %}
+      <li><h3>{{ highlight.title }}</h3><p>{{ highlight.description }}</p></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section aria-labelledby="experience-heading">
+  <div class="section-heading">
+    <h2 class="section-label" id="experience-heading">{{ t.experience }}</h2>
+    <a class="small-link" href="{{ t.routes.resume | relative_url }}">{{ t.full_resume }} <span aria-hidden="true">↗</span></a>
+  </div>
+  <ol class="experience-list">
+    {% for job in portfolio.experience %}
+      <li>
+        <div class="experience-summary"><h3>{{ job.company }}</h3><span class="period">{{ job.fromTo }}</span></div>
+        <p class="role">{{ job.jobTitle }}</p>
+      </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section aria-labelledby="stack-heading">
+  <h2 class="section-label" id="stack-heading">{{ t.stack }}</h2>
+  <p class="stack-copy">{{ t.stack_description }}</p>
+</section>
+
+<section class="contact-section" aria-labelledby="contact-heading">
+  <h2 class="section-label" id="contact-heading">{{ t.contact_heading }}</h2>
+  <p>{{ t.contact_description }}</p>
+  <a class="email-link" href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">↗</span></a>
+</section>

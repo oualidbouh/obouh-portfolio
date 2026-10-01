@@ -1,0 +1,31 @@
+title: Oualid Bouh
+author: Oualid Bouh
+description: Lead Software Engineer in Lyon, specializing in Java, Spring Boot, distributed systems, and infrastructure automation.
+role: Lead Software Engineer
+location: Lyon, France
+lang: en
+url: ""
+baseurl: ""
+timezone: Europe/Paris
+email: bouh.oualid@gmail.com
+github_url: https://github.com/oualidbouh
+linkedin_url: https://www.linkedin.com/in/oualid-bouh/
+
+# Moonwalk's styles are kept locally in _sass so the design is reproducible.
+theme_config:
+  appearance: dark
+  appearance_toggle: true
+
+permalink: pretty
+sass:
+  style: compressed
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE-MOONWALK.txt
+  - vendor
+  - bin

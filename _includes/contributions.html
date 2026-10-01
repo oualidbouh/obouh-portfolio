@@ -1,0 +1,14 @@
+<ul class="contribution-list">
+  {% for contribution in portfolio.contributions %}
+    <li>
+      <div class="contribution-meta"><span>{{ contribution.project }}</span><span>{{ contribution.date }}</span></div>
+      <h3><a href="{{ contribution.url }}">{{ contribution.title }} <span aria-hidden="true">↗</span></a></h3>
+      <p>{{ contribution.description }}</p>
+      <div class="contribution-links">
+        <span class="contribution-status">{{ contribution.outcome }}</span>
+        <a href="{{ contribution.url }}">{{ contribution.reference }}</a>
+        {% if contribution.confirmation_url %}<a href="{{ contribution.confirmation_url }}">{{ contribution.confirmation_label }}</a>{% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,4 @@
+{%- assign locale = page.lang | default: 'en' -%}
+{%- assign t = site.data.locales[locale] -%}
+{%- assign portfolio = site.data -%}
+{%- if locale == 'fr' -%}{%- assign portfolio = site.data.fr -%}{%- endif -%}

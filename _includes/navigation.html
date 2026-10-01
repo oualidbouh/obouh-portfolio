@@ -1,0 +1,16 @@
+<nav class="site-nav" aria-label="{{ t.navigation }}">
+  <ul class="horizontal-list">
+    {% for item in t.navbar_entries %}
+      <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+  <div class="nav-controls">
+    <div class="language-switch" role="group" aria-label="{{ t.languages }}">
+      {% assign translation_key = page.translation_key | default: 'home' %}
+      <a href="{{ site.data.locales.en.routes[translation_key] | relative_url }}" lang="en" hreflang="en" aria-label="English"{% if locale == 'en' %} aria-current="true"{% endif %}>EN</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ site.data.locales.fr.routes[translation_key] | relative_url }}" lang="fr" hreflang="fr" aria-label="Français"{% if locale == 'fr' %} aria-current="true"{% endif %}>FR</a>
+    </div>
+    {% if site.theme_config.appearance_toggle %}{% include toggle_theme_button.html %}{% endif %}
+  </div>
+</nav>

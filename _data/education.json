@@ -1,0 +1,16 @@
+[
+  {
+    "school": "École Centrale de Lyon",
+    "location": "Écully, France",
+    "degree": "Master of Science in Computer Science",
+    "period": "Aug 2017 — Oct 2018",
+    "details": "Computer vision, big data, network security, IoT, web development, algorithm optimization, and game theory."
+  },
+  {
+    "school": "École Nationale des Sciences Appliquées",
+    "location": "Oujda, Morocco",
+    "degree": "Engineering degree in Software Engineering",
+    "period": "Sep 2012 — Jun 2017",
+    "details": "Java/JEE, algorithm optimization, network security, IoT, cloud and DevOps, project management, and ITIL/CMMI."
+  }
+]

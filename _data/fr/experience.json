@@ -1,0 +1,135 @@
+[
+  {
+    "id": "klee-lead",
+    "company": "Klee Group",
+    "jobTitle": "Ingénieur logiciel · Lead technique",
+    "jobLocation": "Lyon, France",
+    "fromTo": "Sept. 2024 — Aujourd’hui",
+    "jobDescription": "Pilotage de la conception et de la livraison de la plateforme FSE+ pour le secteur public français.",
+    "mainTasks": [
+      "Piloter la conception et le développement des composants clés du projet, et accompagner les développeurs juniors vers plus d’autonomie technique.",
+      "Standardiser les environnements de développement avec WSL et automatiser les déploiements et la configuration avec Ansible.",
+      "Définir l’infrastructure sous forme de code avec Terraform pour les environnements OpenStack.",
+      "Piloter les migrations vers les dernières versions de Java, Spring Boot et OpenSearch, en veillant à la compatibilité, à la fluidité des déploiements et à limiter les perturbations. Automatiser les mises à jour des dépendances avec Renovate."
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Batch",
+      "PostgreSQL",
+      "OpenSearch",
+      "Docker",
+      "OpenStack",
+      "Ansible",
+      "Terraform",
+      "GitLab",
+      "Testcontainers",
+      "Maven",
+      "Sonar",
+      "Tomcat",
+      "Renovate"
+    ]
+  },
+  {
+    "id": "klee-senior",
+    "company": "Klee Group",
+    "jobTitle": "Ingénieur logiciel senior",
+    "jobLocation": "Lyon, France · Hybride",
+    "fromTo": "Janv. 2023 — Sept. 2024",
+    "jobDescription": "Développement de modules backend et frontend pour la plateforme FSE+, avec une attention particulière à la fiabilité des livraisons et à la qualité du code.",
+    "mainTasks": [
+      "Concevoir et développer des fonctionnalités dans plusieurs modules backend et frontend.",
+      "Moderniser les pipelines CI/CD pour fiabiliser les builds et accélérer les livraisons.",
+      "Créer un socle de tests d’intégration réutilisable avec Testcontainers et Docker, adopté par le projet et d’autres équipes de l’entité.",
+      "Contribuer aux revues de code, au refactoring et aux améliorations de l’architecture."
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Batch",
+      "PostgreSQL",
+      "OpenSearch",
+      "Docker",
+      "OpenStack",
+      "Ansible",
+      "GitLab",
+      "Testcontainers",
+      "Maven",
+      "Sonar",
+      "Tomcat"
+    ]
+  },
+  {
+    "id": "richemont",
+    "company": "Richemont",
+    "jobTitle": "Ingénieur logiciel",
+    "jobLocation": "Genève, Suisse · À distance",
+    "fromTo": "Juin 2021 — Déc. 2022",
+    "jobDescription": "Développement de microservices et de fonctionnalités de plateforme pour le secteur du luxe, en tant que consultant via SQLI.",
+    "mainTasks": [
+      "Concevoir et développer des fonctionnalités, et créer plusieurs microservices de zéro.",
+      "Mettre en place le mode composite de Spring Cloud Config Server pour gérer plusieurs sources de configuration.",
+      "Ajouter le rechargement à chaud de la configuration sur la plateforme de microservices, sans redéploiement."
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Cloud",
+      "Microservices",
+      "Traefik",
+      "Docker",
+      "RabbitMQ",
+      "MySQL",
+      "MongoDB",
+      "Portainer",
+      "AWS",
+      "Terraform"
+    ]
+  },
+  {
+    "id": "worldline-banking",
+    "company": "Worldline",
+    "jobTitle": "Ingénieur logiciel",
+    "jobLocation": "Lyon, France",
+    "fromTo": "Mai 2020 — Juin 2021",
+    "jobDescription": "Développement de services d’open banking dans l’écosystème DSP2.",
+    "mainTasks": [
+      "Développer des fonctionnalités et corriger des anomalies sur un produit d’open banking utilisé par des banques européennes.",
+      "Accompagner les déploiements applicatifs et la résolution des incidents de production."
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Cloud",
+      "Microservices",
+      "Kafka",
+      "Docker",
+      "AWS S3",
+      "GitLab CI",
+      "Maven",
+      "Nginx"
+    ]
+  },
+  {
+    "id": "worldline-parking",
+    "company": "Worldline",
+    "jobTitle": "Ingénieur logiciel",
+    "jobLocation": "Lyon, France · Hybride",
+    "fromTo": "Avr. 2018 — Mai 2020",
+    "jobDescription": "Développement d’applications de contrôle du stationnement avec des microservices Java et Spring, des outils géospatiaux et de la messagerie.",
+    "mainTasks": [],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Cloud",
+      "JHipster",
+      "GIS",
+      "HERE API",
+      "RabbitMQ",
+      "Microservices",
+      "Docker",
+      "Linux",
+      "GitLab CI"
+    ]
+  }
+]

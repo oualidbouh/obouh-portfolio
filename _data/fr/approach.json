@@ -1,0 +1,17 @@
+{
+  "title": "Agents de développement et automatisation",
+  "tools_category": "Environnement de développement",
+  "description": "J’utilise principalement Cursor, et ponctuellement Codex et Claude Code. Je travaille également sur une plateforme agentique pour automatiser des tâches d’ingénierie asynchrones.",
+  "practices": [
+    {
+      "title": "Rules, Skills et MCP",
+      "category": "Contexte du projet et intégrations",
+      "description": "Je configure des règles de projet, des skills réutilisables et des intégrations MCP pour donner aux agents le contexte et les outils nécessaires au travail sur le code."
+    },
+    {
+      "title": "Workflows d’ingénierie asynchrones",
+      "category": "Automatisation agentique",
+      "description": "Je crée des workflows de qualification des tickets, de correction de bugs et de génération de tests de bout en bout pour automatiser les tâches récurrentes avec des agents."
+    }
+  ]
+}

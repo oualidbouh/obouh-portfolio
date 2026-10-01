@@ -1,0 +1,27 @@
+<script>
+  (() => {
+    const root = document.documentElement;
+    let saved;
+    try { saved = localStorage.getItem('obouh-theme'); } catch (_) {}
+    if (saved === 'light' || saved === 'dark') root.dataset.theme = saved;
+    if (root.dataset.theme === 'auto') {
+      root.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+      const button = document.querySelector('.theme-toggle');
+      if (!button) return;
+      button.hidden = false;
+      const update = () => {
+        const dark = root.dataset.theme === 'dark';
+        button.setAttribute('aria-pressed', String(dark));
+        button.setAttribute('aria-label', dark ? button.dataset.lightLabel : button.dataset.darkLabel);
+      };
+      update();
+      button.addEventListener('click', () => {
+        root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+        try { localStorage.setItem('obouh-theme', root.dataset.theme); } catch (_) {}
+        update();
+      });
+    });
+  })();
+</script>

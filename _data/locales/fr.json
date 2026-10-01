@@ -1,0 +1,49 @@
+{
+  "role": "Ingénieur logiciel · Lead technique",
+  "skip": "Aller au contenu",
+  "navigation": "Navigation principale",
+  "languages": "Langue",
+  "social": "Réseaux et contact",
+  "email": "E-mail",
+  "light_theme": "Passer au thème clair",
+  "dark_theme": "Passer au thème sombre",
+  "view_resume": "Consulter mon CV",
+  "get_in_touch": "Me contacter",
+  "contributions": "Contributions open source",
+  "highlights": "Réalisations techniques",
+  "experience": "Expérience",
+  "full_resume": "CV complet",
+  "stack": "Mon environnement technique",
+  "stack_description": "Java, Spring Boot et Spring Cloud ; PostgreSQL, OpenSearch et RabbitMQ ; Docker, OpenStack, Terraform et Ansible. J’associe développement backend, tests automatisés, CI/CD et accompagnement des développeurs pour aider les équipes à livrer des logiciels faciles à maintenir.",
+  "contact_heading": "Travaillons ensemble",
+  "contact_description": "Un projet en tête ? Je serais ravi d’en discuter avec vous.",
+  "resume_intro": "Depuis 2018, je développe des logiciels pour les services publics, le luxe, l’open banking et le contrôle du stationnement. J’associe développement backend, pilotage technique, accompagnement des développeurs et automatisation DevOps.",
+  "assignments": "Autres missions clients",
+  "education": "Formation",
+  "skills": "Compétences",
+  "technologies": "Technologies :",
+  "routes": {
+    "home": "/fr/",
+    "resume": "/fr/cv/",
+    "contact": "/fr/contact/",
+    "not_found": "/fr/404.html"
+  },
+  "navbar_entries": [
+    {
+      "title": "accueil",
+      "url": "/fr/"
+    },
+    {
+      "title": "contributions",
+      "url": "/fr/#contributions"
+    },
+    {
+      "title": "CV",
+      "url": "/fr/cv/"
+    },
+    {
+      "title": "contact",
+      "url": "/fr/contact/"
+    }
+  ]
+}

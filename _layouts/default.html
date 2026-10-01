@@ -1,0 +1,19 @@
+{% include locale.html %}<!DOCTYPE html>
+<html lang="{{ locale }}" data-theme="{{ site.theme_config.appearance | default: 'dark' }}">
+  {% include head.html %}
+  <body>
+    <a class="skip-link" href="#main">{{ t.skip }}</a>
+    <div class="w">
+      {% include navigation.html %}
+      <main id="main" tabindex="-1">{{ content }}</main>
+      <footer class="site-footer">
+        <ul class="horizontal-list" aria-label="{{ t.social }}">
+          <li><a href="{{ site.github_url }}">GitHub</a></li>
+          <li><a href="{{ site.linkedin_url }}">LinkedIn</a></li>
+          <li><a href="mailto:{{ site.email }}">{{ t.email }}</a></li>
+        </ul>
+        <p class="credits">&copy; {{ 'now' | date: '%Y' }} {{ site.author }} <span aria-hidden="true">·</span> <a href="https://github.com/abhinavs/moonwalk">Moonwalk</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

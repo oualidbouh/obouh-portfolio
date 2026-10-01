@@ -1,0 +1,49 @@
+{
+  "role": "Lead Software Engineer",
+  "skip": "Skip to content",
+  "navigation": "Main navigation",
+  "languages": "Language",
+  "social": "Social links",
+  "email": "Email",
+  "light_theme": "Switch to light theme",
+  "dark_theme": "Switch to dark theme",
+  "view_resume": "View my résumé",
+  "get_in_touch": "Get in touch",
+  "contributions": "Open-source contributions",
+  "highlights": "Selected engineering work",
+  "experience": "Experience",
+  "full_resume": "Full résumé",
+  "stack": "What I work with",
+  "stack_description": "Java, Spring Boot & Spring Cloud; PostgreSQL, OpenSearch & RabbitMQ; Docker, OpenStack, Terraform & Ansible. I pair backend engineering with automated testing, CI/CD, and mentoring to help teams deliver maintainable software.",
+  "contact_heading": "Let’s work together",
+  "contact_description": "Have a project in mind? I’d be happy to hear about it.",
+  "resume_intro": "Software engineering experience since 2018 across public-sector services, luxury retail, open banking, and parking control. I combine hands-on backend development with technical leadership, developer mentoring, and DevOps automation.",
+  "assignments": "Other client assignments",
+  "education": "Education",
+  "skills": "Skills",
+  "technologies": "Technologies:",
+  "routes": {
+    "home": "/",
+    "resume": "/resume/",
+    "contact": "/contact/",
+    "not_found": "/404.html"
+  },
+  "navbar_entries": [
+    {
+      "title": "home",
+      "url": "/"
+    },
+    {
+      "title": "contributions",
+      "url": "/#contributions"
+    },
+    {
+      "title": "résumé",
+      "url": "/resume/"
+    },
+    {
+      "title": "contact",
+      "url": "/contact/"
+    }
+  ]
+}

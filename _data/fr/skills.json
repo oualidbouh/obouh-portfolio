@@ -1,0 +1,111 @@
+[
+  {
+    "category": "Backend",
+    "list": [
+      "Java",
+      "Spring Boot",
+      "Spring Cloud",
+      "Spring Batch",
+      "Hibernate",
+      "Microservices"
+    ]
+  },
+  {
+    "category": "Infrastructure",
+    "list": [
+      "Docker",
+      "OpenStack",
+      "AWS",
+      "Terraform",
+      "Ansible",
+      "Linux",
+      "WSL"
+    ]
+  },
+  {
+    "category": "Livraison logicielle",
+    "list": [
+      "GitLab CI/CD",
+      "Maven",
+      "Renovate",
+      "Sonar",
+      "Scripts shell"
+    ]
+  },
+  {
+    "category": "Données et messagerie",
+    "list": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "OpenSearch",
+      "Elasticsearch",
+      "RabbitMQ",
+      "Apache Kafka",
+      "PostGIS"
+    ]
+  },
+  {
+    "category": "Tests",
+    "list": [
+      "Testcontainers",
+      "JUnit",
+      "Mockito",
+      "MockMvc",
+      "WireMock",
+      "Gatling",
+      "Tests d’intégration"
+    ]
+  },
+  {
+    "category": "Frontend",
+    "list": [
+      "Angular",
+      "Vue.js",
+      "Ember.js",
+      "TypeScript",
+      "JavaScript"
+    ]
+  },
+  {
+    "category": "Outils de plateforme",
+    "list": [
+      "Traefik",
+      "Nginx",
+      "HAProxy",
+      "Tomcat",
+      "Portainer",
+      "JHipster",
+      "HERE API"
+    ]
+  },
+  {
+    "category": "Pratiques d’ingénierie",
+    "list": [
+      "Conception logicielle",
+      "Revues de code",
+      "Refactoring",
+      "Accompagnement des développeurs"
+    ]
+  },
+  {
+    "category": "Agents de développement",
+    "list": [
+      "Cursor",
+      "Codex",
+      "Claude Code",
+      "Rules",
+      "Skills",
+      "MCP"
+    ]
+  },
+  {
+    "category": "Workflows agentiques",
+    "list": [
+      "Qualification des tickets",
+      "Correction de bugs",
+      "Génération de tests E2E",
+      "Automatisation asynchrone"
+    ]
+  }
+]

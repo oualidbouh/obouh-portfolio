@@ -1,0 +1,111 @@
+[
+  {
+    "category": "Backend",
+    "list": [
+      "Java",
+      "Spring Boot",
+      "Spring Cloud",
+      "Spring Batch",
+      "Hibernate",
+      "Microservices"
+    ]
+  },
+  {
+    "category": "Infrastructure",
+    "list": [
+      "Docker",
+      "OpenStack",
+      "AWS",
+      "Terraform",
+      "Ansible",
+      "Linux",
+      "WSL"
+    ]
+  },
+  {
+    "category": "Delivery",
+    "list": [
+      "GitLab CI/CD",
+      "Maven",
+      "Renovate",
+      "Sonar",
+      "Shell scripting"
+    ]
+  },
+  {
+    "category": "Data & messaging",
+    "list": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "OpenSearch",
+      "Elasticsearch",
+      "RabbitMQ",
+      "Apache Kafka",
+      "PostGIS"
+    ]
+  },
+  {
+    "category": "Testing",
+    "list": [
+      "Testcontainers",
+      "JUnit",
+      "Mockito",
+      "MockMvc",
+      "WireMock",
+      "Gatling",
+      "Integration testing"
+    ]
+  },
+  {
+    "category": "Frontend",
+    "list": [
+      "Angular",
+      "Vue.js",
+      "Ember.js",
+      "TypeScript",
+      "JavaScript"
+    ]
+  },
+  {
+    "category": "Platform tools",
+    "list": [
+      "Traefik",
+      "Nginx",
+      "HAProxy",
+      "Tomcat",
+      "Portainer",
+      "JHipster",
+      "HERE API"
+    ]
+  },
+  {
+    "category": "Engineering",
+    "list": [
+      "Software design",
+      "Code reviews",
+      "Refactoring",
+      "Mentoring"
+    ]
+  },
+  {
+    "category": "Coding agents",
+    "list": [
+      "Cursor",
+      "Codex",
+      "Claude Code",
+      "Rules",
+      "Skills",
+      "MCP"
+    ]
+  },
+  {
+    "category": "Agent workflows",
+    "list": [
+      "Ticket triage",
+      "Bug fixing",
+      "E2E test generation",
+      "Asynchronous automation"
+    ]
+  }
+]

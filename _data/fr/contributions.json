@@ -1,0 +1,31 @@
+[
+  {
+    "project": "Spring Data JPA",
+    "title": "Corriger les collisions d’alias dans les projections par interface",
+    "description": "Diagnostic d’une régression touchant les projections sur des relations dont les propriétés portent le même nom. Contribution d’un correctif utilisant des alias de sélection explicites, d’un cas de reproduction et d’un test de non-régression.",
+    "outcome": "Accepté et rétroporté",
+    "date": "Janvier 2026",
+    "url": "https://github.com/spring-projects/spring-data-jpa/pull/4136",
+    "reference": "PR #4136",
+    "confirmation_url": "https://github.com/spring-projects/spring-data-jpa/pull/4136#issuecomment-3714914770",
+    "confirmation_label": "Confirmation du mainteneur"
+  },
+  {
+    "project": "Spring Data OpenSearch",
+    "title": "Corriger la configuration des mappings personnalisés au démarrage",
+    "description": "Correction d’une auto-configuration qui ne reconnaissait pas un composant de personnalisation du mapping fourni par l’utilisateur, provoquant un échec au démarrage dû à des beans en doublon. Ajout de tests pour la configuration par défaut et les personnalisations utilisateur.",
+    "outcome": "Fusionné",
+    "date": "Septembre 2026",
+    "url": "https://github.com/opensearch-project/spring-data-opensearch/pull/826",
+    "reference": "PR #826"
+  },
+  {
+    "project": "Spring Data OpenSearch",
+    "title": "Clarifier la compatibilité avec Java",
+    "description": "Ajout des prérequis minimaux du JDK dans la matrice de compatibilité, vérifiés à partir du bytecode compilé, pour éviter les incompatibilités entre bibliothèques et versions de Java.",
+    "outcome": "Fusionné · Documentation",
+    "date": "Août 2025",
+    "url": "https://github.com/opensearch-project/spring-data-opensearch/pull/512",
+    "reference": "PR #512"
+  }
+]

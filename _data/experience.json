@@ -1,0 +1,135 @@
+[
+  {
+    "id": "klee-lead",
+    "company": "Klee Group",
+    "jobTitle": "Lead Software Engineer",
+    "jobLocation": "Lyon, France",
+    "fromTo": "Sep 2024 — Present",
+    "jobDescription": "Leading software design and delivery for the FSE+ platform in the French public sector.",
+    "mainTasks": [
+      "Lead the design and implementation of core project components, and mentor junior developers to build technical autonomy.",
+      "Standardize development environments with WSL and automate deployments and configuration with Ansible.",
+      "Define infrastructure as code with Terraform for OpenStack environments.",
+      "Lead migrations to the latest versions of Java, Spring Boot, and OpenSearch, focusing on compatibility, smooth rollouts, and minimal disruption. Automate dependency updates with Renovate."
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Batch",
+      "PostgreSQL",
+      "OpenSearch",
+      "Docker",
+      "OpenStack",
+      "Ansible",
+      "Terraform",
+      "GitLab",
+      "Testcontainers",
+      "Maven",
+      "Sonar",
+      "Tomcat",
+      "Renovate"
+    ]
+  },
+  {
+    "id": "klee-senior",
+    "company": "Klee Group",
+    "jobTitle": "Senior Software Engineer",
+    "jobLocation": "Lyon, France · Hybrid",
+    "fromTo": "Jan 2023 — Sep 2024",
+    "jobDescription": "Developed backend and frontend modules for the FSE+ platform, with a focus on delivery reliability and code quality.",
+    "mainTasks": [
+      "Designed and developed features across multiple backend and frontend modules.",
+      "Modernized CI/CD pipelines to improve build reliability and delivery speed.",
+      "Built a reusable integration-testing foundation with Testcontainers and Docker, adopted by the project and other teams in the business unit.",
+      "Contributed through code reviews, refactoring, and architectural improvements."
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Batch",
+      "PostgreSQL",
+      "OpenSearch",
+      "Docker",
+      "OpenStack",
+      "Ansible",
+      "GitLab",
+      "Testcontainers",
+      "Maven",
+      "Sonar",
+      "Tomcat"
+    ]
+  },
+  {
+    "id": "richemont",
+    "company": "Richemont",
+    "jobTitle": "Software Engineer",
+    "jobLocation": "Geneva, Switzerland · Remote",
+    "fromTo": "Jun 2021 — Dec 2022",
+    "jobDescription": "Built microservices and platform capabilities for the luxury-goods sector as a consultant through SQLI.",
+    "mainTasks": [
+      "Designed and developed features and created several microservices from scratch.",
+      "Implemented composite mode in Spring Cloud Config Server to support configuration from multiple sources.",
+      "Added configuration hot reload across the microservices platform, enabling updates without redeployment."
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Cloud",
+      "Microservices",
+      "Traefik",
+      "Docker",
+      "RabbitMQ",
+      "MySQL",
+      "MongoDB",
+      "Portainer",
+      "AWS",
+      "Terraform"
+    ]
+  },
+  {
+    "id": "worldline-banking",
+    "company": "Worldline",
+    "jobTitle": "Software Engineer",
+    "jobLocation": "Lyon, France",
+    "fromTo": "May 2020 — Jun 2021",
+    "jobDescription": "Worked on open-banking services in the PSD2 ecosystem.",
+    "mainTasks": [
+      "Developed features and resolved issues for an open-banking product used by European banks.",
+      "Supported application deployments and production incident resolution."
+    ],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Cloud",
+      "Microservices",
+      "Kafka",
+      "Docker",
+      "AWS S3",
+      "GitLab CI",
+      "Maven",
+      "Nginx"
+    ]
+  },
+  {
+    "id": "worldline-parking",
+    "company": "Worldline",
+    "jobTitle": "Software Engineer",
+    "jobLocation": "Lyon, France · Hybrid",
+    "fromTo": "Apr 2018 — May 2020",
+    "jobDescription": "Worked on parking-control applications using Java and Spring microservices, geospatial tools, and messaging.",
+    "mainTasks": [],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Cloud",
+      "JHipster",
+      "GIS",
+      "HERE API",
+      "RabbitMQ",
+      "Microservices",
+      "Docker",
+      "Linux",
+      "GitLab CI"
+    ]
+  }
+]

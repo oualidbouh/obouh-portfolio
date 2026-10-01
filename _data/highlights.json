@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Modernizing a public-sector platform",
+    "description": "Leading migrations to the latest versions of Java, Spring Boot, and OpenSearch at Klee Group, with a focus on compatibility, smooth rollouts, and minimal disruption. Supporting reliable delivery with Terraform and Ansible."
+  },
+  {
+    "title": "Making integration testing reusable",
+    "description": "Built a Testcontainers and Docker testing foundation adopted by my project and other teams within the business unit."
+  },
+  {
+    "title": "Configuration without redeployment",
+    "description": "Implemented multi-source configuration and hot reload for Richemont’s Spring Cloud microservices platform."
+  }
+]

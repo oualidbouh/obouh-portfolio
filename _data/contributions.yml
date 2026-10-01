@@ -1,0 +1,25 @@
+- project: Spring Data JPA
+  title: Fixing alias collisions in interface projections
+  description: Diagnosed a regression affecting projections across relationships with matching property names. Contributed a fix using explicit selection aliases, a reproducer, and a regression test.
+  outcome: Accepted and backported
+  date: January 2026
+  url: https://github.com/spring-projects/spring-data-jpa/pull/4136
+  reference: "PR #4136"
+  confirmation_url: https://github.com/spring-projects/spring-data-jpa/pull/4136#issuecomment-3714914770
+  confirmation_label: Maintainer confirmation
+
+- project: Spring Data OpenSearch
+  title: Fixing custom mapping configuration at startup
+  description: Fixed auto-configuration that failed to recognize a user-provided mapping customizer, causing duplicate-bean startup failures. Added tests for both the default configuration and user overrides.
+  outcome: Merged
+  date: September 2026
+  url: https://github.com/opensearch-project/spring-data-opensearch/pull/826
+  reference: "PR #826"
+
+- project: Spring Data OpenSearch
+  title: Clarifying Java version compatibility
+  description: Added minimum JDK requirements to the compatibility matrix, verified against compiled bytecode, to help developers avoid incompatible library and Java versions.
+  outcome: Merged · Documentation
+  date: August 2025
+  url: https://github.com/opensearch-project/spring-data-opensearch/pull/512
+  reference: "PR #512"

@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Moderniser une plateforme du secteur public",
+    "description": "Pilotage des migrations vers les dernières versions de Java, Spring Boot et OpenSearch chez Klee Group, en veillant à la compatibilité, à la fluidité des déploiements et à limiter les perturbations. Fiabilisation des livraisons avec Terraform et Ansible."
+  },
+  {
+    "title": "Rendre les tests d’intégration réutilisables",
+    "description": "Création d’un socle de tests avec Testcontainers et Docker, adopté par mon projet et d’autres équipes de l’entité."
+  },
+  {
+    "title": "Mettre à jour la configuration sans redéployer",
+    "description": "Mise en place d’une configuration multisource et de son rechargement à chaud pour la plateforme de microservices Spring Cloud de Richemont."
+  }
+]
