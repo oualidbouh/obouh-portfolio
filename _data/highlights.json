@@ -1,14 +1,22 @@
 [
   {
-    "title": "Modernizing a public-sector platform",
-    "description": "Leading migrations to the latest versions of Java, Spring Boot, and OpenSearch at Klee Group, with a focus on compatibility, smooth rollouts, and minimal disruption. Supporting reliable delivery with Terraform and Ansible."
+    "id": "platform-modernization",
+    "title": "Keeping the technology stack current",
+    "description": "At Klee Group, I lead Java, Spring Boot, OpenSearch, and PostgreSQL upgrades on FSE+, addressing compatibility during each migration. I configured Renovate to manage minor and major dependency updates, helping the team address technical debt earlier."
   },
   {
-    "title": "Making integration testing reusable",
-    "description": "Built a Testcontainers and Docker testing foundation adopted by my project and other teams within the business unit."
+    "id": "integration-testing",
+    "title": "Introducing Testcontainers to the business unit",
+    "description": "I carried out the Testcontainers migration on FSE+, the first project in the business unit to adopt it. Other projects subsequently followed with support from the business unit technical leader."
   },
   {
-    "title": "Configuration without redeployment",
-    "description": "Implemented multi-source configuration and hot reload for Richemont’s Spring Cloud microservices platform."
+    "id": "configuration",
+    "title": "Configuration changes without redeployment",
+    "description": "For Richemont, through SQLI, I implemented multi-source configuration with Spring Cloud Config Server and added hot reload across the microservices platform. Configuration could then be updated without redeploying the services."
+  },
+  {
+    "id": "coding-agents",
+    "title": "Automating engineering tasks with coding agents",
+    "description": "At Klee Group, I use an existing agent platform to set up automation for ticket triage, bug fixing, and end-to-end test generation."
   }
 ]

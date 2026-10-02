@@ -21,25 +21,12 @@
   {% include contributions.html %}
 </section>
 
-<section aria-labelledby="assignments-heading">
-  <h2 id="assignments-heading">{{ t.assignments }}</h2>
-  {% for job in portfolio.assignments %}
-    <article class="resume-job assignment">
-      <div class="experience-summary"><h3>{{ job.company }}</h3><span class="period">{{ job.fromTo }}</span></div>
-      <p class="job-title">{{ job.jobTitle }}</p>
-      <p>{{ job.jobDescription }}</p>
-      <p class="technologies"><span>{{ t.technologies }}</span> {{ job.technologies | join: ' · ' }}</p>
-    </article>
-  {% endfor %}
-</section>
-
 <section aria-labelledby="education-heading">
   <h2 id="education-heading">{{ t.education }}</h2>
   {% for education in portfolio.education %}
     <article class="education-entry">
       <div class="experience-summary"><h3>{{ education.school }}</h3><span class="period">{{ education.period }}</span></div>
       <p>{{ education.degree }}</p><p class="location">{{ education.location }}</p>
-      {% if education.details %}<p class="education-details">{{ education.details }}</p>{% endif %}
     </article>
   {% endfor %}
 </section>

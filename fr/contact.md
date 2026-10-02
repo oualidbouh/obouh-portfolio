@@ -4,9 +4,9 @@ title: Contact
 lang: fr
 translation_key: contact
 permalink: /fr/contact/
-description: Un projet en tête ? Parlons-en.
+description: Échangeons sur les systèmes Java, les tests et l’automatisation des déploiements.
 ---
-Je suis basé à **Lyon, en France**. Si vous avez besoin d’aide pour développer des services backend, moderniser une plateforme Java ou automatiser vos livraisons, je serais ravi de discuter de votre projet. Le plus simple est de me contacter par e-mail.
+Je suis basé à **Lyon, en France**. Pour échanger sur les systèmes Java et Spring, les tests d’intégration ou l’automatisation des déploiements, contactez-moi par e-mail.
 
 [{{ site.email }}](mailto:{{ site.email }})
 

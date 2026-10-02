@@ -3,14 +3,12 @@
     "school": "École Centrale de Lyon",
     "location": "Écully, France",
     "degree": "Master en informatique",
-    "period": "Août 2017 — Oct. 2018",
-    "details": "Vision par ordinateur, big data, sécurité des réseaux, IoT, développement web, optimisation algorithmique et théorie des jeux."
+    "period": "Août 2017 — Oct. 2018"
   },
   {
     "school": "École Nationale des Sciences Appliquées",
     "location": "Oujda, Maroc",
     "degree": "Diplôme d’ingénieur en génie logiciel",
-    "period": "Sept. 2012 — Juin 2017",
-    "details": "Java/JEE, optimisation algorithmique, sécurité des réseaux, IoT, cloud et DevOps, gestion de projet et ITIL/CMMI."
+    "period": "Sept. 2012 — Juin 2017"
   }
 ]

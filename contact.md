@@ -4,9 +4,9 @@ lang: en
 translation_key: contact
 title: Contact
 permalink: /contact/
-description: Have a project in mind? Let’s talk.
+description: Get in touch about Java systems, testing, and delivery automation.
 ---
-I’m based in **{{ site.location }}**. If you need help with backend engineering, modernizing a Java platform, or automating delivery, I’d be happy to discuss your project. Email is the best way to reach me.
+I’m based in **{{ site.location }}**. To discuss Java and Spring systems, integration testing, or delivery automation, get in touch by email.
 
 [{{ site.email }}](mailto:{{ site.email }})
 

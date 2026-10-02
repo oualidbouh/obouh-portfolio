@@ -5,13 +5,15 @@
     "jobTitle": "Ingénieur logiciel · Lead technique",
     "jobLocation": "Lyon, France",
     "fromTo": "Sept. 2024 — Aujourd’hui",
-    "jobDescription": "Pilotage de la conception et de la livraison de la plateforme FSE+ pour le secteur public français.",
+    "jobDescription": "Lead technique sur la plateforme FSE+ : choix d’architecture, d’outils et définition de la feuille de route technique, avec une participation au développement.",
     "mainTasks": [
-      "Piloter la conception et le développement des composants clés du projet, et accompagner les développeurs juniors vers plus d’autonomie technique.",
+      "Définir les choix d’architecture, sélectionner les outils et élaborer la feuille de route technique.",
+      "Concevoir et développer les composants clés du projet, aider les développeurs et les accompagner dans leur progression technique.",
       "Standardiser les environnements de développement avec WSL et automatiser les déploiements et la configuration avec Ansible.",
       "Définir l’infrastructure sous forme de code avec Terraform pour les environnements OpenStack.",
-      "Piloter les migrations vers les dernières versions de Java, Spring Boot et OpenSearch, en veillant à la compatibilité, à la fluidité des déploiements et à limiter les perturbations. Automatiser les mises à jour des dépendances avec Renovate.",
-      "Développer une plateforme agentique pour automatiser des tâches d’ingénierie asynchrones, notamment la qualification des tickets, la correction de bugs et la génération de tests de bout en bout."
+      "Piloter les mises à niveau majeures de Java, Spring Boot, OpenSearch et PostgreSQL, en traitant les questions de compatibilité et en maintenant le socle technique à jour.",
+      "Configurer Renovate pour gérer les mises à jour mineures et majeures des dépendances et aider l’équipe à traiter la dette technique plus tôt.",
+      "Utiliser une plateforme agentique existante pour mettre en place des automatisations de qualification des tickets, de correction de bugs et de génération de tests de bout en bout."
     ],
     "technologies": [
       "Java",
@@ -41,7 +43,7 @@
     "mainTasks": [
       "Concevoir et développer des fonctionnalités dans plusieurs modules backend et frontend.",
       "Moderniser les pipelines CI/CD pour fiabiliser les builds et accélérer les livraisons.",
-      "Créer un socle de tests d’intégration réutilisable avec Testcontainers et Docker, adopté par le projet et d’autres équipes de l’entité.",
+      "Migrer les tests d’intégration vers Testcontainers sur le premier projet de l’entité à l’adopter. D’autres projets ont suivi avec l’appui du responsable technique de l’entité.",
       "Contribuer aux revues de code, au refactoring et aux améliorations de l’architecture."
     ],
     "technologies": [
@@ -63,7 +65,7 @@
   {
     "id": "richemont",
     "company": "Richemont",
-    "jobTitle": "Ingénieur logiciel",
+    "jobTitle": "Ingénieur logiciel (via SQLI)",
     "jobLocation": "Genève, Suisse · À distance",
     "fromTo": "Juin 2021 — Déc. 2022",
     "jobDescription": "Développement de microservices et de fonctionnalités de plateforme pour le secteur du luxe, en tant que consultant via SQLI.",
@@ -93,10 +95,11 @@
     "jobTitle": "Ingénieur logiciel",
     "jobLocation": "Lyon, France",
     "fromTo": "Mai 2020 — Juin 2021",
-    "jobDescription": "Développement de services d’open banking dans l’écosystème DSP2.",
+    "jobDescription": "Développement d’une plateforme d’open banking en marque blanche, exposant aux acteurs tiers des API PSD2 selon le standard Berlin Group et assurant l’intégration avec les systèmes bancaires internes.",
     "mainTasks": [
-      "Développer des fonctionnalités et corriger des anomalies sur un produit d’open banking utilisé par des banques européennes.",
-      "Accompagner les déploiements applicatifs et la résolution des incidents de production."
+      "Développer des connecteurs vers les systèmes bancaires internes et des adaptations spécifiques aux banques pour la consultation des comptes et transactions, l’initiation de paiements et la vérification de la disponibilité des fonds.",
+      "Contribuer aux évolutions du produit commun en marque blanche.",
+      "Investiguer et résoudre les incidents de production."
     ],
     "technologies": [
       "Java",
@@ -117,15 +120,21 @@
     "jobTitle": "Ingénieur logiciel",
     "jobLocation": "Lyon, France · Hybride",
     "fromTo": "Avr. 2018 — Mai 2020",
-    "jobDescription": "Développement d’applications de contrôle du stationnement avec des microservices Java et Spring, des outils géospatiaux et de la messagerie.",
-    "mainTasks": [],
+    "jobDescription": "Développement d’une plateforme pour un opérateur proposant des services de contrôle du stationnement aux collectivités.",
+    "mainTasks": [
+      "Concevoir et développer des microservices Java/Spring, incluant les modèles de données, les contrats d’API et les échanges entre services.",
+      "Développer des connecteurs vers les systèmes de stationnement Parkeon/Flowbird suivant les spécifications de la Fédération nationale des métiers du stationnement (FNMS), notamment pour vérifier le paiement du stationnement.",
+      "Utiliser PostgreSQL/PostGIS pour les données géospatiales.",
+      "Écrire des tests, participer aux déploiements et résoudre les incidents de production.",
+      "Maintenir et améliorer les pipelines CI/CD."
+    ],
     "technologies": [
       "Java",
       "Spring Boot",
       "Spring Cloud",
       "JHipster",
-      "GIS",
-      "HERE API",
+      "PostgreSQL",
+      "PostGIS",
       "RabbitMQ",
       "Microservices",
       "Docker",

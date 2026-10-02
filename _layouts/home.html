@@ -9,20 +9,18 @@ layout: default
   <p class="intro-links"><a href="{{ t.routes.resume | relative_url }}">{{ t.view_resume }} <span aria-hidden="true">↗</span></a><a href="mailto:{{ site.email }}">{{ t.get_in_touch }} <span aria-hidden="true">↗</span></a></p>
 </header>
 
-<section id="contributions" aria-labelledby="contributions-heading">
-  <h2 class="section-label" id="contributions-heading">{{ t.contributions }}</h2>
-  {% include contributions.html %}
-</section>
-
-{% include approach.html %}
-
-<section aria-labelledby="highlights-heading">
+<section id="selected-work" aria-labelledby="highlights-heading">
   <h2 class="section-label" id="highlights-heading">{{ t.highlights }}</h2>
   <ul class="work-highlights">
     {% for highlight in portfolio.highlights %}
-      <li><h3>{{ highlight.title }}</h3><p>{{ highlight.description }}</p></li>
+      <li id="{{ highlight.id }}"><h3>{{ highlight.title }}</h3><p>{{ highlight.description }}</p></li>
     {% endfor %}
   </ul>
+</section>
+
+<section id="contributions" aria-labelledby="contributions-heading">
+  <h2 class="section-label" id="contributions-heading">{{ t.contributions }}</h2>
+  {% include contributions.html %}
 </section>
 
 <section aria-labelledby="experience-heading">

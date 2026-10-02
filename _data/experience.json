@@ -5,13 +5,15 @@
     "jobTitle": "Lead Software Engineer",
     "jobLocation": "Lyon, France",
     "fromTo": "Sep 2024 — Present",
-    "jobDescription": "Leading software design and delivery for the FSE+ platform in the French public sector.",
+    "jobDescription": "Lead Software Engineer on the FSE+ platform, making architecture and tooling decisions and defining technical roadmaps alongside hands-on development.",
     "mainTasks": [
-      "Lead the design and implementation of core project components, and mentor junior developers to build technical autonomy.",
+      "Make architecture and tooling decisions and define the technical roadmap.",
+      "Design and develop core project components, support other developers, and mentor them in their technical development.",
       "Standardize development environments with WSL and automate deployments and configuration with Ansible.",
       "Define infrastructure as code with Terraform for OpenStack environments.",
-      "Lead migrations to the latest versions of Java, Spring Boot, and OpenSearch, focusing on compatibility, smooth rollouts, and minimal disruption. Automate dependency updates with Renovate.",
-      "Develop an agentic platform to automate asynchronous engineering tasks, including ticket triage, bug fixing, and end-to-end test generation."
+      "Lead major Java, Spring Boot, OpenSearch, and PostgreSQL upgrades, addressing compatibility and keeping the technology stack current.",
+      "Configure Renovate to manage minor and major dependency updates, helping the team address technical debt earlier.",
+      "Use an existing agent platform to set up automation for ticket triage, bug fixing, and end-to-end test generation."
     ],
     "technologies": [
       "Java",
@@ -41,7 +43,7 @@
     "mainTasks": [
       "Designed and developed features across multiple backend and frontend modules.",
       "Modernized CI/CD pipelines to improve build reliability and delivery speed.",
-      "Built a reusable integration-testing foundation with Testcontainers and Docker, adopted by the project and other teams in the business unit.",
+      "Migrated integration tests to Testcontainers on the first project in the business unit to adopt it. Other projects followed with support from the business unit technical leader.",
       "Contributed through code reviews, refactoring, and architectural improvements."
     ],
     "technologies": [
@@ -63,7 +65,7 @@
   {
     "id": "richemont",
     "company": "Richemont",
-    "jobTitle": "Software Engineer",
+    "jobTitle": "Software Engineer (through SQLI)",
     "jobLocation": "Geneva, Switzerland · Remote",
     "fromTo": "Jun 2021 — Dec 2022",
     "jobDescription": "Built microservices and platform capabilities for the luxury-goods sector as a consultant through SQLI.",
@@ -93,10 +95,11 @@
     "jobTitle": "Software Engineer",
     "jobLocation": "Lyon, France",
     "fromTo": "May 2020 — Jun 2021",
-    "jobDescription": "Worked on open-banking services in the PSD2 ecosystem.",
+    "jobDescription": "Developed a white-label open-banking platform exposing PSD2 APIs to third-party providers under the Berlin Group standard and integrating with banks’ core banking systems.",
     "mainTasks": [
-      "Developed features and resolved issues for an open-banking product used by European banks.",
-      "Supported application deployments and production incident resolution."
+      "Developed connectors to core banking systems and bank-specific integrations for account and transaction information, payment initiation, and confirmation of funds availability.",
+      "Contributed to enhancements of the shared white-label product.",
+      "Investigated and resolved production incidents."
     ],
     "technologies": [
       "Java",
@@ -117,15 +120,21 @@
     "jobTitle": "Software Engineer",
     "jobLocation": "Lyon, France · Hybrid",
     "fromTo": "Apr 2018 — May 2020",
-    "jobDescription": "Worked on parking-control applications using Java and Spring microservices, geospatial tools, and messaging.",
-    "mainTasks": [],
+    "jobDescription": "Developed a platform for an operator providing parking enforcement services to municipalities.",
+    "mainTasks": [
+      "Designed and developed Java/Spring microservices, including data models, API contracts, and communication between services.",
+      "Developed connectors to Parkeon/Flowbird parking systems following French parking industry federation (FNMS) API specifications, including checks of parking payments.",
+      "Used PostgreSQL/PostGIS for geospatial data.",
+      "Wrote tests, participated in deployments, and resolved production incidents.",
+      "Maintained and improved CI/CD pipelines."
+    ],
     "technologies": [
       "Java",
       "Spring Boot",
       "Spring Cloud",
       "JHipster",
-      "GIS",
-      "HERE API",
+      "PostgreSQL",
+      "PostGIS",
       "RabbitMQ",
       "Microservices",
       "Docker",

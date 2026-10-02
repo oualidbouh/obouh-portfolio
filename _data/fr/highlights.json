@@ -1,14 +1,22 @@
 [
   {
-    "title": "Moderniser une plateforme du secteur public",
-    "description": "Pilotage des migrations vers les dernières versions de Java, Spring Boot et OpenSearch chez Klee Group, en veillant à la compatibilité, à la fluidité des déploiements et à limiter les perturbations. Fiabilisation des livraisons avec Terraform et Ansible."
+    "id": "platform-modernization",
+    "title": "Maintenir le socle technique à jour",
+    "description": "Chez Klee Group, je pilote les mises à niveau de Java, Spring Boot, OpenSearch et PostgreSQL sur FSE+, en traitant les questions de compatibilité à chaque migration. J’ai configuré Renovate pour gérer les mises à jour mineures et majeures des dépendances et aider l’équipe à traiter la dette technique plus tôt."
   },
   {
-    "title": "Rendre les tests d’intégration réutilisables",
-    "description": "Création d’un socle de tests avec Testcontainers et Docker, adopté par mon projet et d’autres équipes de l’entité."
+    "id": "integration-testing",
+    "title": "Introduire Testcontainers dans l’entité",
+    "description": "J’ai mené la migration vers Testcontainers sur FSE+, premier projet de l’entité à l’adopter. D’autres projets ont ensuite suivi avec l’appui du responsable technique de l’entité."
   },
   {
-    "title": "Mettre à jour la configuration sans redéployer",
-    "description": "Mise en place d’une configuration multisource et de son rechargement à chaud pour la plateforme de microservices Spring Cloud de Richemont."
+    "id": "configuration",
+    "title": "Modifier la configuration sans redéployer",
+    "description": "Pour Richemont, via SQLI, j’ai mis en place une configuration multisource avec Spring Cloud Config Server et son rechargement à chaud sur la plateforme de microservices. La configuration pouvait ainsi être mise à jour sans redéployer les services."
+  },
+  {
+    "id": "coding-agents",
+    "title": "Automatiser les tâches d’ingénierie avec des agents",
+    "description": "Chez Klee Group, j’utilise une plateforme agentique existante pour mettre en place des automatisations de qualification des tickets, de correction de bugs et de génération de tests de bout en bout."
   }
 ]
