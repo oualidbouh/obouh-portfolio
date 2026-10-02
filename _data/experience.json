@@ -10,7 +10,8 @@
       "Lead the design and implementation of core project components, and mentor junior developers to build technical autonomy.",
       "Standardize development environments with WSL and automate deployments and configuration with Ansible.",
       "Define infrastructure as code with Terraform for OpenStack environments.",
-      "Lead migrations to the latest versions of Java, Spring Boot, and OpenSearch, focusing on compatibility, smooth rollouts, and minimal disruption. Automate dependency updates with Renovate."
+      "Lead migrations to the latest versions of Java, Spring Boot, and OpenSearch, focusing on compatibility, smooth rollouts, and minimal disruption. Automate dependency updates with Renovate.",
+      "Develop an agentic platform to automate asynchronous engineering tasks, including ticket triage, bug fixing, and end-to-end test generation."
     ],
     "technologies": [
       "Java",

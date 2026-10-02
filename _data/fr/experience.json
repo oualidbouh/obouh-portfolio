@@ -10,7 +10,8 @@
       "Piloter la conception et le développement des composants clés du projet, et accompagner les développeurs juniors vers plus d’autonomie technique.",
       "Standardiser les environnements de développement avec WSL et automatiser les déploiements et la configuration avec Ansible.",
       "Définir l’infrastructure sous forme de code avec Terraform pour les environnements OpenStack.",
-      "Piloter les migrations vers les dernières versions de Java, Spring Boot et OpenSearch, en veillant à la compatibilité, à la fluidité des déploiements et à limiter les perturbations. Automatiser les mises à jour des dépendances avec Renovate."
+      "Piloter les migrations vers les dernières versions de Java, Spring Boot et OpenSearch, en veillant à la compatibilité, à la fluidité des déploiements et à limiter les perturbations. Automatiser les mises à jour des dépendances avec Renovate.",
+      "Développer une plateforme agentique pour automatiser des tâches d’ingénierie asynchrones, notamment la qualification des tickets, la correction de bugs et la génération de tests de bout en bout."
     ],
     "technologies": [
       "Java",

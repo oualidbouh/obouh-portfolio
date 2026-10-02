@@ -1,32 +1,48 @@
 [
   {
-    "category": "Backend",
+    "category": "Langages de programmation",
     "list": [
       "Java",
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "Kotlin"
+    ]
+  },
+  {
+    "category": "Backend",
+    "list": [
       "Spring Boot",
       "Spring Cloud",
-      "Spring Batch",
-      "Hibernate",
-      "Microservices"
+      "Microservices",
+      "Node.js",
+      "Express.js",
+      "FastAPI"
     ]
   },
   {
-    "category": "Infrastructure",
+    "category": "Frontend",
     "list": [
-      "Docker",
-      "OpenStack",
-      "AWS",
-      "Terraform",
-      "Ansible",
-      "Linux",
-      "WSL"
+      "Angular"
     ]
   },
   {
-    "category": "Livraison logicielle",
+    "category": "Infrastructure et automatisation",
+    "list": [
+      "Terraform",
+      "Docker",
+      "Ansible",
+      "HashiCorp Vault"
+    ]
+  },
+  {
+    "category": "CI/CD et outils de build",
     "list": [
       "GitLab CI/CD",
+      "GitHub Actions",
       "Maven",
+      "npm",
+      "pnpm",
       "Renovate",
       "Sonar",
       "Scripts shell"
@@ -48,6 +64,7 @@
   {
     "category": "Tests",
     "list": [
+      "Playwright",
       "Testcontainers",
       "JUnit",
       "Mockito",
@@ -55,37 +72,6 @@
       "WireMock",
       "Gatling",
       "Tests d’intégration"
-    ]
-  },
-  {
-    "category": "Frontend",
-    "list": [
-      "Angular",
-      "Vue.js",
-      "Ember.js",
-      "TypeScript",
-      "JavaScript"
-    ]
-  },
-  {
-    "category": "Outils de plateforme",
-    "list": [
-      "Traefik",
-      "Nginx",
-      "HAProxy",
-      "Tomcat",
-      "Portainer",
-      "JHipster",
-      "HERE API"
-    ]
-  },
-  {
-    "category": "Pratiques d’ingénierie",
-    "list": [
-      "Conception logicielle",
-      "Revues de code",
-      "Refactoring",
-      "Accompagnement des développeurs"
     ]
   },
   {
@@ -97,15 +83,6 @@
       "Rules",
       "Skills",
       "MCP"
-    ]
-  },
-  {
-    "category": "Workflows agentiques",
-    "list": [
-      "Qualification des tickets",
-      "Correction de bugs",
-      "Génération de tests E2E",
-      "Automatisation asynchrone"
     ]
   }
 ]

@@ -1,32 +1,48 @@
 [
   {
-    "category": "Backend",
+    "category": "Programming languages",
     "list": [
       "Java",
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "Kotlin"
+    ]
+  },
+  {
+    "category": "Backend",
+    "list": [
       "Spring Boot",
       "Spring Cloud",
-      "Spring Batch",
-      "Hibernate",
-      "Microservices"
+      "Microservices",
+      "Node.js",
+      "Express.js",
+      "FastAPI"
     ]
   },
   {
-    "category": "Infrastructure",
+    "category": "Frontend",
     "list": [
-      "Docker",
-      "OpenStack",
-      "AWS",
-      "Terraform",
-      "Ansible",
-      "Linux",
-      "WSL"
+      "Angular"
     ]
   },
   {
-    "category": "Delivery",
+    "category": "Infrastructure & automation",
+    "list": [
+      "Terraform",
+      "Docker",
+      "Ansible",
+      "HashiCorp Vault"
+    ]
+  },
+  {
+    "category": "CI/CD & build tools",
     "list": [
       "GitLab CI/CD",
+      "GitHub Actions",
       "Maven",
+      "npm",
+      "pnpm",
       "Renovate",
       "Sonar",
       "Shell scripting"
@@ -48,6 +64,7 @@
   {
     "category": "Testing",
     "list": [
+      "Playwright",
       "Testcontainers",
       "JUnit",
       "Mockito",
@@ -55,37 +72,6 @@
       "WireMock",
       "Gatling",
       "Integration testing"
-    ]
-  },
-  {
-    "category": "Frontend",
-    "list": [
-      "Angular",
-      "Vue.js",
-      "Ember.js",
-      "TypeScript",
-      "JavaScript"
-    ]
-  },
-  {
-    "category": "Platform tools",
-    "list": [
-      "Traefik",
-      "Nginx",
-      "HAProxy",
-      "Tomcat",
-      "Portainer",
-      "JHipster",
-      "HERE API"
-    ]
-  },
-  {
-    "category": "Engineering",
-    "list": [
-      "Software design",
-      "Code reviews",
-      "Refactoring",
-      "Mentoring"
     ]
   },
   {
@@ -97,15 +83,6 @@
       "Rules",
       "Skills",
       "MCP"
-    ]
-  },
-  {
-    "category": "Agent workflows",
-    "list": [
-      "Ticket triage",
-      "Bug fixing",
-      "E2E test generation",
-      "Asynchronous automation"
     ]
   }
 ]
